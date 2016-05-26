@@ -1,0 +1,56 @@
+<PISI>
+    <Source>
+        <Name>nuvola-app-soundcloud</Name>
+        <Packager>
+            <Name>Stefan Ric</Name>
+            <Email>stfric369@gmail.com</Email>
+        </Packager>
+        <License>BSD-2-Clause</License>
+        <PartOf>desktop.multimedia</PartOf>
+        <Summary xml:lang="en">SoundCloud Integration for Nuvola Player 3.</Summary>
+        <Description xml:lang="en">Integration of SoundCloud into your linux desktop via Nuvola Player.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>nuvola-app-soundcloud</Name>
+        <Summary xml:lang="en">SoundCloud Integration for Nuvola Player 3.</Summary>
+        <Description xml:lang="en">Integration of SoundCloud into your linux desktop via Nuvola Player.
+</Description>
+        <PartOf>desktop.multimedia</PartOf>
+        <Files>
+            <Path fileType="data">/usr/share/icons/hicolor/128x128/apps/nuvolaplayer3_soundcloud.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/16x16/apps/nuvolaplayer3_soundcloud.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/22x22/apps/nuvolaplayer3_soundcloud.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/24x24/apps/nuvolaplayer3_soundcloud.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/256x256/apps/nuvolaplayer3_soundcloud.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/32x32/apps/nuvolaplayer3_soundcloud.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/48x48/apps/nuvolaplayer3_soundcloud.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/64x64/apps/nuvolaplayer3_soundcloud.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/nuvolaplayer3_soundcloud.svg</Path>
+            <Path fileType="data">/usr/share/nuvolaplayer3/web_apps/soundcloud/LICENSE-BSD.txt</Path>
+            <Path fileType="data">/usr/share/nuvolaplayer3/web_apps/soundcloud/LICENSE-CC-BY.txt</Path>
+            <Path fileType="data">/usr/share/nuvolaplayer3/web_apps/soundcloud/LICENSE-MIT.txt</Path>
+            <Path fileType="data">/usr/share/nuvolaplayer3/web_apps/soundcloud/icons/128.png</Path>
+            <Path fileType="data">/usr/share/nuvolaplayer3/web_apps/soundcloud/icons/16.png</Path>
+            <Path fileType="data">/usr/share/nuvolaplayer3/web_apps/soundcloud/icons/22.png</Path>
+            <Path fileType="data">/usr/share/nuvolaplayer3/web_apps/soundcloud/icons/24.png</Path>
+            <Path fileType="data">/usr/share/nuvolaplayer3/web_apps/soundcloud/icons/256.png</Path>
+            <Path fileType="data">/usr/share/nuvolaplayer3/web_apps/soundcloud/icons/32.png</Path>
+            <Path fileType="data">/usr/share/nuvolaplayer3/web_apps/soundcloud/icons/48.png</Path>
+            <Path fileType="data">/usr/share/nuvolaplayer3/web_apps/soundcloud/icons/64.png</Path>
+            <Path fileType="data">/usr/share/nuvolaplayer3/web_apps/soundcloud/icons/scalable.svg</Path>
+            <Path fileType="data">/usr/share/nuvolaplayer3/web_apps/soundcloud/integrate.js</Path>
+            <Path fileType="data">/usr/share/nuvolaplayer3/web_apps/soundcloud/metadata.json</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2016-05-26</Date>
+            <Version>1.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Stefan Ric</Name>
+            <Email>stfric369@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
